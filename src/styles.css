@@ -1,0 +1,86 @@
+/* No CSS */
+@import url(./scss/_flex.scss);
+@import url(./scss/_grid1.scss);
+@import url(./scss/_grid2.scss);
+@import url(./scss/_grid3.scss);
+@import url(./scss/_Header.scss);
+@import url(./scss/_navbar.scss);
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial;
+}
+
+body {
+  overflow: scroll;
+  margin-bottom: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.animeLeft {
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+  opacity: 0;
+  -webkit-animation: animeLeft 0.5s forwards;
+          animation: animeLeft 0.5s forwards;
+}
+
+@-webkit-keyframes animeLeft {
+  to {
+    -webkit-transform: initial;
+            transform: initial;
+    opacity: initial;
+  }
+}
+
+@keyframes animeLeft {
+  to {
+    -webkit-transform: initial;
+            transform: initial;
+    opacity: initial;
+  }
+}
+
+.animeTop {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  opacity: 0;
+  -webkit-animation: animeTop 0.5s forwards;
+          animation: animeTop 0.5s forwards;
+}
+
+@-webkit-keyframes animeTop {
+  to {
+    -webkit-transform: initial;
+            transform: initial;
+    opacity: initial;
+  }
+}
+
+@keyframes animeTop {
+  to {
+    -webkit-transform: initial;
+            transform: initial;
+    opacity: initial;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

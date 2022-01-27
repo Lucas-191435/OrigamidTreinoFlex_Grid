@@ -1,0 +1,71 @@
+/* No CSS *//*# sourceMappingURL=styles.css.map */
+
+@import url(./scss/_flex.scss);
+@import url(./scss/_grid1.scss);
+@import url(./scss/_grid2.scss);
+@import url(./scss/_grid3.scss);
+@import url(./scss/_Header.scss);
+@import url(./scss/_navbar.scss);
+
+
+
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial;
+}
+
+body {
+  overflow: scroll;
+  margin-bottom: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+
+.animeLeft{
+  transform: translateX(-20px);
+  opacity: 0;
+  animation: animeLeft 0.5s forwards;
+}
+
+@keyframes animeLeft {
+  to{
+    transform: initial;
+    opacity: initial;
+  }
+}
+
+
+.animeTop{
+  transform: translateY(-20px);
+  opacity: 0;
+  animation: animeTop 0.5s forwards;
+}
+
+@keyframes animeTop {
+  to{
+    transform: initial;
+    opacity: initial;
+  }
+}
+

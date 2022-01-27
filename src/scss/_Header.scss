@@ -1,0 +1,26 @@
+
+
+.header{
+  display: flex;
+  background: #1f1f1f;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+}
+
+.menu{
+  display: flex;
+}
+
+.menu li{
+  margin-left: 10px;
+}
+
+.menu a{
+  display: block;
+  padding: 10px;
+}
+
